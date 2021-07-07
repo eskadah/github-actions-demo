@@ -38,4 +38,4 @@ jobs:
       - name: Print a secret
         env:
           test: ${{TEST}}
-        run: echo "this is a secret: $test"
+        run: echo "this is a secret ${test}"
